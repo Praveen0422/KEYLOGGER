@@ -1,4 +1,4 @@
-# KEYLOGGER
+# Keylogger
 
 First install the module "pynput" using pip.
 Command: pip install pynput
